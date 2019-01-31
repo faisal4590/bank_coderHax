@@ -23,8 +23,9 @@ public class DBConnection {
 			// Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 //			conn = DriverManager.getConnection("jdbc:sqlserver://vNTDACWSSQLD002:1433;"
 //					+ "databaseName=DEV_TEST;user=dev_test_dbo;password=dev_test_dbo123");
-			conn = DriverManager.getConnection("jdbc:jtds:sqlserver://vNTDACWSSQLD002:1433;"
-					+ "databaseName=DEV_TEST;user=dev_test_dbo;password=dev_test_dbo123");
+			conn = DriverManager.getConnection("jdbc:jtds:sqlserver://vNTDACLSCRAPR01:1433;"
+					+ "databaseName=BankAccountMNG;user=bankaccountmng_dbo;"
+					+ "password=bankaccountmng_dbo123");
 			log.info("connection created.");
 			// conn.close();
 		} catch (Exception e) {
