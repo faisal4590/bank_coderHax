@@ -1,3 +1,8 @@
 2019-01-29 11:37:29,712 [main] INFO  DBConnection:28 - connection created.
 2019-01-31 17:44:46,540 [main] INFO  DBConnection:29 - connection created.
 2019-02-03 12:32:50,790 [main] INFO  DBConnection:29 - connection created.
+2019-02-03 16:53:04,099 [main] ERROR BankOperations:35 - Not Done null
+2019-02-03 17:20:09,952 [main] ERROR BankOperations:49 - Not Done The executeUpdate method must not return a result set.
+2019-02-03 17:22:48,727 [main] ERROR BankOperations:51 - Not Done The executeUpdate method must not return a result set.
+2019-02-03 17:22:59,187 [main] ERROR BankOperations:51 - Not Done The executeUpdate method must not return a result set.
+2019-02-03 17:31:12,309 [main] ERROR BankOperations:69 - Not Done Parameter #2 has not been set.

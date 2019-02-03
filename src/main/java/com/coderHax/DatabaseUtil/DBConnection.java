@@ -43,7 +43,10 @@ public class DBConnection {
 
 	}
 
-	public Connection getConnection() {
+	public static Connection getConnection() throws SQLException {
+		conn = DriverManager.getConnection("jdbc:jtds:sqlserver://vNTDACLSCRAPR01:1433;"
+				+ "databaseName=BankAccountMNG;user=bankaccountmng_dbo;"
+				+ "password=bankaccountmng_dbo123");
 		return conn;
 
 	}
