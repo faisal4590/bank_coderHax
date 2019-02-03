@@ -1,4 +1,4 @@
-package com.faisal.StoredProcedure.Stored_procedure;
+package com.coderHax.DatabaseUtil;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
