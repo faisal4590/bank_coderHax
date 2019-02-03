@@ -14,15 +14,8 @@ public class DBConnection {
 	private static Connection conn;
 	private static DBConnection instance = null;
 
-	private DBConnection() {
+	public static Connection getConnection() {
 		try {
-//				Class.forName("oracle.jdbc.OracleDriver");
-//				conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "hr", "mymy");
-			// Load the SQLServerDriver class, build the
-			// connection string, and get a connection
-			// Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-//			conn = DriverManager.getConnection("jdbc:sqlserver://vNTDACWSSQLD002:1433;"
-//					+ "databaseName=DEV_TEST;user=dev_test_dbo;password=dev_test_dbo123");
 			conn = DriverManager.getConnection("jdbc:jtds:sqlserver://vNTDACLSCRAPR01:1433;"
 					+ "databaseName=BankAccountMNG;user=bankaccountmng_dbo;"
 					+ "password=bankaccountmng_dbo123");
@@ -31,22 +24,9 @@ public class DBConnection {
 		} catch (Exception e) {
 			log.error("Connection error: " + e.getMessage());
 		}
-	}
-
-	public static DBConnection getInstance() {
-		if (instance == null) {
-			instance = new DBConnection();
-			return instance;
-		} else {
-			return instance;
-		}
-
-	}
-
-	public Connection getConnection() {
 		return conn;
-
 	}
+	
 
 	public static void closeAll(ResultSet rs, PreparedStatement stmt, Connection conn) {
 		if (rs != null) {
