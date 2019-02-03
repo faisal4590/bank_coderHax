@@ -1,6 +1,9 @@
 package com.faisal.StoredProcedure.Stored_procedure;
 
 import static org.junit.Assert.*;
+
+import java.sql.SQLException;
+
 import org.junit.Test;
 
 import com.coderHax.Service.BankDAOImplementation;
@@ -25,4 +28,23 @@ public class MethodJUnitTest extends TestCase {
 		assertEquals(true, bdimpl.coderHax3_allFromBranch());
 	}
 
+	@Test
+	public void testQuery6() throws SQLException
+	{
+		
+		assertEquals(true, bdimpl.coderHax6_assetsInThousands());
+	}
+	@Test
+	public void testQuery7() throws SQLException
+	{
+		
+		assertEquals(true, bdimpl.coderHax7_balanceBetweenOneAndFourMillion(1000000, 4000000));
+	}
+	
+	@Test
+	public void testQuery8() throws SQLException
+	{
+		
+		assertEquals(true, bdimpl.coderHax8_customersWhoHaveAccount());
+	}
 }

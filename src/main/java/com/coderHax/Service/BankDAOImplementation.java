@@ -3,11 +3,13 @@ package com.coderHax.Service;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.coderHax.DAO.BankDAO;
+import com.coderHax.DatabaseUtil.BankOperations;
 import com.coderHax.DatabaseUtil.DBConnection;
 
 import lombok.extern.slf4j.Slf4j;
@@ -84,28 +86,68 @@ public class BankDAOImplementation implements BankDAO {
 	}
 
 	@Override
-	public boolean coderHax4_balanceGreaterThan800() {
+	public boolean coderHax5_balanceGreaterThan800() {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public boolean coderHax6_assetsInThousands() {
-		// TODO Auto-generated method stub
+
+		BankOperations bankOperations = new BankOperations();
+
+		try {
+			bankOperations.coderHax6_assetsInThousandsImplentation();
+			log.info("procedure 6  performed successfully");
+			return true;
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			log.warn("procedure 6 is not performed successfully, " + e.getMessage());
+			e.printStackTrace();
+		}
+
 		return false;
 	}
 
 	@Override
-	public boolean coderHax7_balanceBetweenOneAndFourMillion() {
+	public boolean coderHax7_balanceBetweenOneAndFourMillion(int n, int m) {
 		// TODO Auto-generated method stub
+		BankOperations bankOperations = new BankOperations();
+
+		try {
+			bankOperations.coderHax7_AssetsBetweenOneToFourMillionImplementation(n, m);
+			log.info("procedure 7  performed successfully");
+			return true;
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			log.warn("procedure 7 is not performed successfully, " + e.getMessage());
+			e.printStackTrace();
+		}
+
 		return false;
 	}
 
 	@Override
 	public boolean coderHax8_customersWhoHaveAccount() {
 		// TODO Auto-generated method stub
+		BankOperations bankOperations = new BankOperations();
+
+		try {
+			bankOperations.coderHax8_HaveAccountImplementation();
+			log.info("procedure 8  performed successfully");
+			return true;
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			log.warn("procedure 8 is not performed successfully, " + e.getMessage());
+			e.printStackTrace();
+		}
+
 		return false;
 	}
+
 
 	@Override
 	public boolean coderHax9_balance400OrLess() {

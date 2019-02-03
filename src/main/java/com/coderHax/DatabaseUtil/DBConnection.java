@@ -27,7 +27,15 @@ public class DBConnection {
 		return conn;
 	}
 	
+	public static DBConnection getInstance() {
+		if (instance == null) {
+			instance = new DBConnection();
+			return instance;
+		} else {
+			return instance;
+		}
 
+	}
 	public static void closeAll(ResultSet rs, PreparedStatement stmt, Connection conn) {
 		if (rs != null) {
 			try {
