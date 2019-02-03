@@ -1,27 +1,3 @@
 2019-01-29 11:37:29,712 [main] INFO  DBConnection:28 - connection created.
 2019-01-31 17:44:46,540 [main] INFO  DBConnection:29 - connection created.
 2019-02-03 12:32:50,790 [main] INFO  DBConnection:29 - connection created.
-2019-02-03 16:16:48,261 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:19:08,091 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:22:33,567 [main] ERROR DBConnection:28 - Connection error: No suitable driver found for jdbc:sqlserver://vNTDACLSCRAPR01:1433
-2019-02-03 16:22:33,586 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:23:31,116 [main] ERROR DBConnection:26 - Connection error: No suitable driver found for jdbc:sqlserver://vNTDACLSCRAPR01:1433
-2019-02-03 16:23:31,133 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:24:02,044 [main] ERROR DBConnection:26 - Connection error: No suitable driver found for jdbc:sqlserver://vNTDACLSCRAPR01:1433
-2019-02-03 16:24:02,062 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:24:53,742 [main] ERROR DBConnection:26 - Connection error: No suitable driver found for jdbc:sqlserver://vNTDACLSCRAPR01:1433
-2019-02-03 16:24:53,760 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:27:43,610 [main] ERROR DBConnection:26 - Connection error: No suitable driver found for jdbc:sqlserver://vNTDACLSCRAPR01:1433
-2019-02-03 16:27:43,630 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:30:07,400 [main] ERROR DBConnection:26 - Connection error: No suitable driver found for jdbc:sqlserver://vNTDACLSCRAPR01:1433
-2019-02-03 16:30:07,418 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:37:34,775 [main] INFO  DBConnection:22 - connection created.
-2019-02-03 16:37:34,792 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:38:00,429 [main] INFO  DBConnection:22 - connection created.
-2019-02-03 16:38:00,445 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:38:00,458 [main] INFO  BankDAOImplementation:41 - Branch Names from Loan
-2019-02-03 16:38:00,464 [main] INFO  BankDAOImplementation:61 - Entire Table from Branch
-2019-02-03 16:38:49,545 [main] INFO  DBConnection:22 - connection created.
-2019-02-03 16:38:49,677 [main] INFO  BankDAOImplementation:61 - Entire Table from Branch
-2019-02-03 16:38:49,706 [main] INFO  BankDAOImplementation:23 - Names from Loan
-2019-02-03 16:38:49,713 [main] INFO  BankDAOImplementation:41 - Branch Names from Loan
