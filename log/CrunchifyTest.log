@@ -25,3 +25,13 @@
 2019-02-03 16:38:49,677 [main] INFO  BankDAOImplementation:61 - Entire Table from Branch
 2019-02-03 16:38:49,706 [main] INFO  BankDAOImplementation:23 - Names from Loan
 2019-02-03 16:38:49,713 [main] INFO  BankDAOImplementation:41 - Branch Names from Loan
+2019-02-03 18:10:28,882 [main] INFO  DBConnection:22 - connection created.
+2019-02-03 18:10:29,610 [main] INFO  BankDAOImplementation:63 - Entire Table from Branch
+2019-02-03 18:10:29,648 [main] INFO  BankDAOImplementation:25 - Names from Loan
+2019-02-03 18:10:29,648 [main] INFO  BankDAOImplementation:43 - Branch Names from Loan
+2019-02-03 18:10:29,780 [main] INFO  DBConnection:22 - connection created.
+2019-02-03 18:10:29,780 [main] INFO  BankDAOImplementation:101 - procedure 6  performed successfully
+2019-02-03 18:10:29,892 [main] INFO  DBConnection:22 - connection created.
+2019-02-03 18:10:29,902 [main] INFO  BankDAOImplementation:120 - procedure 7  performed successfully
+2019-02-03 18:10:29,996 [main] INFO  DBConnection:22 - connection created.
+2019-02-03 18:10:29,996 [main] INFO  BankDAOImplementation:139 - procedure 8  performed successfully
