@@ -80,15 +80,21 @@ public class BankDAOImplementation implements BankDAO {
 	}
 
 	@Override
-	public boolean coderHax4_balanceGreaterThan700() {
-		// TODO Auto-generated method stub
-		return false;
+	public String coderHax4_balanceGreaterThan700(int n) {
+
+		String s = BankOperations.Task04(n);
+		if (s != null)
+			return s;
+
+		return null;
 	}
 
+
 	@Override
-	public boolean coderHax5_balanceGreaterThan800() {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean coderHax5_balanceGreaterThan800(int n, String m) {
+
+		return BankOperations.Task05(n, m);
+
 	}
 
 	@Override
@@ -150,9 +156,9 @@ public class BankDAOImplementation implements BankDAO {
 
 
 	@Override
-	public boolean coderHax9_balance400OrLess() {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean coderHax9_balance400OrLess(int n) throws SQLException {
+		return BankOperations.Task09(n);
+		
 	}
 
 }

@@ -35,3 +35,39 @@
 2019-02-03 18:10:29,902 [main] INFO  BankDAOImplementation:120 - procedure 7  performed successfully
 2019-02-03 18:10:29,996 [main] INFO  DBConnection:22 - connection created.
 2019-02-03 18:10:29,996 [main] INFO  BankDAOImplementation:139 - procedure 8  performed successfully
+2019-02-04 10:24:58,177 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:24:58,373 [main] INFO  BankDAOImplementation:63 - Entire Table from Branch
+2019-02-04 10:24:58,406 [main] INFO  BankDAOImplementation:25 - Names from Loan
+2019-02-04 10:24:58,412 [main] INFO  BankDAOImplementation:43 - Branch Names from Loan
+2019-02-04 10:24:58,576 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:24:58,585 [main] INFO  BankDAOImplementation:101 - procedure 6  performed successfully
+2019-02-04 10:24:58,723 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:24:58,734 [main] INFO  BankDAOImplementation:120 - procedure 7  performed successfully
+2019-02-04 10:24:58,910 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:24:58,913 [main] INFO  BankDAOImplementation:139 - procedure 8  performed successfully
+2019-02-04 10:24:59,071 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:29:46,283 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:29:46,398 [main] INFO  BankDAOImplementation:63 - Entire Table from Branch
+2019-02-04 10:29:46,418 [main] INFO  BankDAOImplementation:25 - Names from Loan
+2019-02-04 10:29:46,423 [main] INFO  BankDAOImplementation:43 - Branch Names from Loan
+2019-02-04 10:29:46,608 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:29:46,636 [main] INFO  BankDAOImplementation:102 - procedure 6  performed successfully
+2019-02-04 10:29:46,780 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:29:46,782 [main] INFO  BankDAOImplementation:121 - procedure 7  performed successfully
+2019-02-04 10:29:46,921 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:29:46,924 [main] INFO  BankDAOImplementation:140 - procedure 8  performed successfully
+2019-02-04 10:29:47,060 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:29:47,211 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:33:18,445 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:33:18,573 [main] INFO  BankDAOImplementation:63 - Entire Table from Branch
+2019-02-04 10:33:18,593 [main] INFO  BankDAOImplementation:25 - Names from Loan
+2019-02-04 10:33:18,599 [main] INFO  BankDAOImplementation:43 - Branch Names from Loan
+2019-02-04 10:33:18,765 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:33:18,773 [main] INFO  BankDAOImplementation:107 - procedure 6  performed successfully
+2019-02-04 10:33:18,917 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:33:18,920 [main] INFO  BankDAOImplementation:126 - procedure 7  performed successfully
+2019-02-04 10:33:19,056 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:33:19,182 [main] INFO  BankDAOImplementation:145 - procedure 8  performed successfully
+2019-02-04 10:33:19,338 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:33:19,479 [main] INFO  DBConnection:22 - connection created.
+2019-02-04 10:33:19,611 [main] INFO  DBConnection:22 - connection created.

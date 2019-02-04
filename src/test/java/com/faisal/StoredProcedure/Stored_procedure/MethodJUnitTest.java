@@ -27,6 +27,17 @@ public class MethodJUnitTest extends TestCase {
 	public void testCoderHax3_allFromBranch() {
 		assertEquals(true, bdimpl.coderHax3_allFromBranch());
 	}
+	@Test
+	public void testTask04() { 
+		assertEquals("sA-201A-217",bdimpl.coderHax4_balanceGreaterThan700(700) );
+		
+	}
+	@Test
+	public void testTask05() { 
+		
+		assertTrue(bdimpl.coderHax5_balanceGreaterThan800(700, "Brighton"));		
+			
+	}
 
 	@Test
 	public void testQuery6() throws SQLException
@@ -46,5 +57,11 @@ public class MethodJUnitTest extends TestCase {
 	{
 		
 		assertEquals(true, bdimpl.coderHax8_customersWhoHaveAccount());
+	}
+	@Test
+	public void testTask09() throws SQLException { 
+		
+		assertTrue(bdimpl.coderHax9_balance400OrLess(400));	
+			
 	}
 }
